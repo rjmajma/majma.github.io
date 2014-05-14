@@ -1,0 +1,90 @@
+/*** General ***/
+
+p {line-height: 1.4em; margin-bottom: 1em; }
+#content a {text-decoration: none; color: #555; }
+ul li {list-style: none; display: block; line-height: 1.75em;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-bottom: .5em; line-height: 1.4em;}
+ul.feature-list li {border-bottom: 1px solid rgba(255,255,255,.1); line-height: 1.3em; padding: .35em 1em .35em 0;}
+ul.feature-list li:last-child {border-bottom: none;}
+ul.feature-list .date, ul.feature-list .source {color: #fff; color: rgba(255,255,255,.5);}
+
+h1 {font-size: 2em;}
+h2 {font-size: 2.2em; font-weight: 400; }
+h3 {font-size: 1.5em; font-weight: 400;}
+h4 {font-size: 1.3em; font-weight: 400;}
+h5 {font-size: 1.2em; font-weight: 400;}
+h6 {font-size: 1em; font-weight: 400;}
+
+body {font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial sans-serif; font-size: 18px; font-weight: normal; line-height: 1.4em; color: #555;}
+
+/*** Header ***/
+
+header {
+  padding: 0 1em 4em 0;
+  text-align: center;
+}
+
+.banner {
+  display: block;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3em;
+  padding: .5em 1em 0 .5em;
+  margin: 0 auto;
+  display: block;
+  font-family: 'Pacifico', cursive;
+  color: #ed8145;
+  font-weight: 300;
+  line-height: 1.1em;
+}
+
+header .banner h2 {text-align: center; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial sans-serif; color: #888; font-size: .85em; clear: both; margin: 2.25em 0 0 0; font-weight: 300; }
+
+header h2 span {color: #cdcdcd; padding: 0 .15em; display: inline-block;}
+
+@media only screen and (min-width: 680px) {
+  header h1 {font-size: 3.75em;}
+}
+
+header a {text-decoration: none; color: #ed8145; }
+header a:hover, header a:active, header a:focus {border-bottom: 1px solid #a85400; }
+
+/*** Content ***/
+
+#content a {color: #ed8145;}
+#content a:hover, #content a:active {color: #ed8145;}
+#content .title a {border-bottom: none; color: #ed8145;}
+#content h2.title {line-height: 1.1em; font-size: 2.2em;}
+#content {margin: 0 auto;  max-width: 500px; font-weight: 300;}
+.container {padding: 0em 1em;}
+#content h2 {padding: 0; margin: 0;}
+
+#content .post-meta { padding-bottom: .5em; margin-bottom: .5em; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial sans-serif; color: #777; font-size: .85em; }
+
+/*** Posts ***/
+
+p.post-date {font-size: .8em; color: #888; border-bottom: 1px solid #eee; padding-bottom: .75em; }
+#content ul {list-style: square; list-style-type: square; margin: 0 0 1em 0; }
+#content ul li {list-style: square; list-style-type: square; display: block; list-style-position: outside;}
+span.date {display: block; color: #ccc; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial sans-serif; }
+.previous {border-top: 2px solid #eee; margin-top: 1.5em; padding-top: 1em;}
+#content ul.button-list {margin: 1em 0; padding: 0;}
+#content ul.button-list li {display: inline-block; margin: 0 1em 0 0;}
+#content ul.button-list li a {background: #eee; background: rgba(0,0,0,.1); display: block; border-bottom: none; text-decoration: none; padding: .15em .75em;}
+
+/*** Footer ***/
+
+footer {max-width: 500px; margin-top: 2em; padding-top: 3em; padding-bottom: 1em; box-sizing: border-box; margin: 0 auto; color: #787878;}
+footer .section {margin: 0 auto; }
+footer p {border-top: 2px solid #ccc; padding-top: 1em; font-size: .8em;}
+footer abbr[title] {text-decoration: none; border-bottom: none;}
+footer a {color: #ed8145; text-decoration: none;}
+footer a:hover, footer a:active, footer a:focus {color: #555;}
+
+ul.social-media  {margin: 0 0 1em 0; padding: 0; text-align: center; font-size: .8em;}
+ul.social-media li {display: inline-block; margin: 0 1em 0 1em;}

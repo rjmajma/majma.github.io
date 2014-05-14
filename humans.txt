@@ -1,0 +1,16 @@
+---
+layout: none
+---
+
+/* People */
+Raph Majma majma.io
+
+/* Site */
+
+Last Update: {{ site.time }}
+Generator: Jekyll
+Hosting: GitHub Pages
+Standards: HTML5, CSS3
+Components: HTML5 Resent, Responsive Grid System, Modernizr, jQuery
+
+Forked from Dannychapman.com
